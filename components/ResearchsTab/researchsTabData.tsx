@@ -1,6 +1,6 @@
-import { TeamTab } from "@/public/types/teamTab";
+import { ResearchTab } from "@/public/types/researchTab";
 
-const teamsTabData: TeamTab[] = [
+const researchsTabData: ResearchTab[] = [
   {
     id: "tabOne",
     title: "Solid Has Neat & Clean User Interface.",
@@ -27,4 +27,4 @@ const teamsTabData: TeamTab[] = [
   },
 ];
 
-export default teamsTabData;
+export default researchsTabData;

@@ -2,7 +2,7 @@ import image1 from "./id1.jpg";
 import image2 from "./id2.jpg";
 import image3 from './id3.jpg'
 import image4 from './id4.jpg'
-import { Testimonial } from "@/types/testimonial";
+import { Testimonial } from "@/public/types/testimonial";
 
 export const testimonialData: Testimonial[] = [
   {

@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Note } from "@/types/note";
+import { Note } from "@/public/types/note";
 
 const NoteItem: React.FC<{ note: Note }> = ({ note }) => {
   const { title, content } = note;

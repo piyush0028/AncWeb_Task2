@@ -1,10 +1,10 @@
 import React from "react";
-import { Team } from "@/public/types/team";
+import { Outreach } from "@/public/types/outreach";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-const SingleTeam = ({ team }: { team: Team }) => {
-  const { icon, title, designation , role,  description } = team;
+const SingleOutreach = ({ outreach }: { outreach: Outreach }) => {
+  const { icon, title, designation , role,  description } = outreach;
 
   return (
     <>
@@ -40,4 +40,4 @@ const SingleTeam = ({ team }: { team: Team }) => {
   );
 };
 
-export default SingleTeam;
+export default SingleOutreach;

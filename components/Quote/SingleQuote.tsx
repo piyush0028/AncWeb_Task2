@@ -1,6 +1,6 @@
 "use client";
 
-import { Quote } from "@/types/quote";
+import { Quote } from "@/public/types/quote";
 import Image from "next/image";
 
 const SingleQuote = ({ quote }: { quote: Quote }) => {

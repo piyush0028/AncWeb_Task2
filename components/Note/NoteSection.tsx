@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import NoteItem from "./NoteItem";
-import { Note } from "@/types/note";
+import { Note } from "@/public/types/note";
 
 interface NoteSectionProps {
   notes: Note[];

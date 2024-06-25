@@ -1,5 +1,5 @@
 import React from "react";
-import { TeamTab } from "@/types/teamTab";
+import { TeamTab } from "@/public/types/teamTab";
 import Image from "next/image";
 
 const TeamsTabItem = ({ featureTab }: { featureTab: TeamTab }) => {

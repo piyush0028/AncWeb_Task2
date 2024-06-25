@@ -1,4 +1,4 @@
-import { Team } from "@/types/team";
+import { Team } from "@/public/types/team";
 
 const teamsData: Team[] = [
   {

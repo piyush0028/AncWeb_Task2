@@ -1,6 +1,6 @@
-import { TeamTab } from "@/public/types/teamTab";
+import { OutreachTab } from "@/public/types/outreachTab";
 
-const teamsTabData: TeamTab[] = [
+const outreachsTabData: OutreachTab[] = [
   {
     id: "tabOne",
     title: "Solid Has Neat & Clean User Interface.",
@@ -27,4 +27,4 @@ const teamsTabData: TeamTab[] = [
   },
 ];
 
-export default teamsTabData;
+export default outreachsTabData;

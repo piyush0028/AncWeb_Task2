@@ -1,4 +1,4 @@
-import { FAQ } from "@/types/faq";
+import { FAQ } from "@/public/types/faq";
 
 const faqData: FAQ[] = [
   {

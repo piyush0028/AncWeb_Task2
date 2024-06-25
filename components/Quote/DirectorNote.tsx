@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { motion } from "framer-motion";
 import SingleQuote from "./SingleQuote";
-import { Quote, HeaderInfo } from "@/types/quote";
+import { Quote, HeaderInfo } from "@/public/types/quote";
 
 interface DirectorNoteProps {
   headerInfo: HeaderInfo;

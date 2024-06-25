@@ -8,7 +8,7 @@ import ResearchGazette from "@/components/ResearchGazette";
 import PastSessions from "@/components/PastSessions";
 import DirectorNote from "@/components/Quote/DirectorNote";
 import NoteSection from "@/components/Note/NoteSection";
-import { Note } from "@/types/note";
+import { Note } from "@/public/types/note";
 
 import { faComments, faBullhorn, faObjectGroup, faMagic, faCalendarAlt, faStar, faDatabase, faGraduationCap, faGlobe, faHandsHelping } from '@fortawesome/free-solid-svg-icons';
 

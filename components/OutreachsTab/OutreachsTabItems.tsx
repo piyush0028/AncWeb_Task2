@@ -1,9 +1,9 @@
 import React from "react";
-import { FeatureTab } from "@/public/types/featureTab";
+import { OutreachTab } from "@/public/types/outreachTab";
 import Image from "next/image";
 
-const FeaturesTabItem = ({ featureTab }: { featureTab: FeatureTab }) => {
-  const { title, desc1, desc2, image, imageDark } = featureTab;
+const OutreachsTabItem = ({ outreachTab }: { outreachTab: OutreachTab }) => {
+  const { title, desc1, desc2, image, imageDark } = outreachTab;
 
   return (
     <>
@@ -29,4 +29,4 @@ const FeaturesTabItem = ({ featureTab }: { featureTab: FeatureTab }) => {
   );
 };
 
-export default FeaturesTabItem;
+export default OutreachsTabItem;
